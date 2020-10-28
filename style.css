@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+}
+#parent-div {
+    height: 100vh;
+    width: 100vw;
+}
+#navbar {
+    height: 7%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+#game-title {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#game-screen {
+    height: 40%;
+    width: 45%;
+    margin-left: 27.5%;
+    box-shadow: 5px 5px 10px 10px #888888;
+    display: flex;
+}
+
+#button-container {
+    width: 10%;
+    height: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 45%;
+    margin-top: 2%;
+}
+
+.game-buttons :hover {
+    border-bottom: black solid 2px;
+}
+
+.game-buttons {
+    flex: 1;
+    text-align: center;
+    color: black;
+}
+
+.player-choices {
+    flex: 1;
+    /* width: 20%; */
+    height: 20%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.choices-wrapper {
+    display: flex;
+    height: 100%;   
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
